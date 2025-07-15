@@ -1,0 +1,27 @@
+{
+  "name": "advisor-backend",
+  "version": "1.0.0",
+  "description": "Fastify backend for chatbot application",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "build": "echo 'No build step required for backend'"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@fastify/rate-limit": "^9.0.1",
+    "@langchain/community": "^0.0.20",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "langchain": "^0.0.208",
+    "openai": "^4.20.1",
+    "pg": "^8.16.3",
+    "pino-pretty": "^10.2.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
